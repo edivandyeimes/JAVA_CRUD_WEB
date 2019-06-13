@@ -13,7 +13,11 @@ public class ConnectionFactory {
             Class.forName("com.mysql.jdbc.Driver");
             
             //retorna a conexao com o BD
-            return DriverManager.getConnection("jdbc:mysql://localhost:3306/ifnmg", "ifnmg", "1234ifnmg");
+	    //localhost  = ip
+	    //port = porta de conexao
+	    //base = nome da base de dados
+	    //user = usuario e pass = senha cadastrados	
+            return DriverManager.getConnection("jdbc:mysql://localhost:port/base", "user", "pass");
         } catch (SQLException e) {
             throw new RuntimeException(e);
         } catch (ClassNotFoundException ex) {
