@@ -1,6 +1,6 @@
 # People Registration Web System
 
-Java Web Bootsrap Mysql 
+Java Web Bootstrap Mysql 
 
 mysql-connector-java = V8.0.14
 
