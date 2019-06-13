@@ -1,1 +1,9 @@
-# JAVA_CRUD_WEB
+# people registration web system
+
+java web bootsrap mysql 
+
+functions:
+create
+read
+update
+delete
