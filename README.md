@@ -1,9 +1,9 @@
-# people registration web system
+# People Registration Web System
 
-java web bootsrap mysql 
+Java Web Bootsrap Mysql 
 
-functions:
-create
-read
-update
-delete
+Functions:
+create,
+read,
+update,
+delete.
